@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h2>Cadastro</h2>
     <form action="">
         <label for="nome">Nome</label>
         <input type="text" name="nome" id="nome">
@@ -24,13 +24,31 @@
         </select>
 
         <label for="anoNascimento">Ano de Nascimento</label>
-        <input type="text" name="anoNascimento" id="anoNascimento">
+        <input type="number" name="anoNascimento" id="anoNascimento">
 
         <button type="button" class="btnCadastrar" onclick="cadastrar()">Cadastrar</button>
     </form>
    
     <h1 class="resultado"></h1>
+
+
+    <br>
+    <br>
+    <h2>Calculadora</h2>
+
+      <form action="">
+        <label for="valor1">Valor 1</label><br>
+        <input type="number" id="valor1" name="valor1"><br>
+
+        <br>
+
+        <label for="valor2">Valor 2</label><br>
+        <input type="number" id="valor2" name="valor2"><br><br>
+
+        <button type="button" onclick="calcular()">Calcular</button>
+      </form>
      
+      <h3 class="resultado-conta"></h3>
 
     <script src="./script.js"></script>
 </body>
