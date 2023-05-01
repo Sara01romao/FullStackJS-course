@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome">
+
+        <label for="sobrenome">Sobrenome</label>
+        <input type="text" name="sobrenome" id="sobrenome">
+
+        <label for="">Campo de estudo</label>
+        <select name="estudo" id="estudo">
+            <option value="">Selecionar</option>
+            <option value="backend">Back-end</option>
+            <option value="frontend">Front-end</option>
+            <option value="uiux">UI/UX</option>
+        </select>
+
+        <label for="anoNascimento">Ano de Nascimento</label>
+        <input type="text" name="anoNascimento" id="anoNascimento">
+
+        <button type="button" class="btnCadastrar" onclick="cadastrar()">Cadastrar</button>
+    </form>
+   
+    <h1 class="resultado"></h1>
+     
+
+    <script src="./script.js"></script>
+</body>
+</html>
